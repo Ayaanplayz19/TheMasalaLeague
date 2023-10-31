@@ -1,0 +1,175 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #8DC63F;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 50px;
+    font-size: 25px; /* Adjust the font size as needed */
+}
+
+header {
+    background-color: #8DC63F;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.image-with-text {
+    display: flex; /* Aligns the image and text horizontally */
+    align-items: center; /* Vertically aligns the image and text */
+    gap: 20px; /* Adjust the gap value as needed */
+}
+.small-image {
+    max-width: 40%; /* Adjust the percentage or value as needed */
+    height: auto;
+}
+h1 {
+    background-color: #66CCCC;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 50px; /* Adjust the font size as needed */
+}
+.hero {
+    background-color: #66CCCC;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+.pitch, .Creative, .Myths {
+
+    background-color: #D9FFD9;
+    padding: 30px;
+}
+body {
+    background-color: #D9FFD9;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+}
+/* Add this CSS to your styles.css file */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.wisdom {
+    margin-top: 20px;
+}
+header {
+    background-color: #8DC63F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 40px;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-buttons {
+    margin-top: 20px;
+}
+
+.increased-font {
+    font-size: 20px; /* Set your desired font size */
+}
+
+.email-button, .call-button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.email-button:hover, .call-button:hover {
+    background-color: #555;
+}
+.main-text {
+    font-size: 44px; /* Set your desired font size */
+}
+
+.v-small-image {
+    max-width: 30%; /* Adjust the percentage or value as needed */
+    height: auto;
+}
+.u-small-image {
+    max-width: 25%; /* Adjust the percentage or value as needed */
+    height: auto;
+}
+.content {
+    margin: 20px; /* Set your desired margin value */
+}
+.video-container {
+    max-width: 560px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+
+}
+
